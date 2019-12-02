@@ -457,14 +457,14 @@ namespace DaggerfallConnect.Arena2
                     settings.GroundArchive = 402;
                     settings.NatureArchive = (int)DFLocation.ClimateTextureSet.Nature_Swamp;
                     settings.SkyBase = 24;
-                    settings.People = FactionFile.FactionRaces.Breton;
+                    settings.People = FactionFile.FactionRaces.Redguard;
                     break;
                 case (int)Climates.Subtropical:
                     settings.ClimateType = DFLocation.ClimateBaseType.Desert;
                     settings.GroundArchive = 2;
                     settings.NatureArchive = (int)DFLocation.ClimateTextureSet.Nature_SubTropical;
                     settings.SkyBase = 24;
-                    settings.People = FactionFile.FactionRaces.Breton;
+                    settings.People = FactionFile.FactionRaces.Redguard;
                     break;
                 case (int)Climates.MountainWoods:
                     settings.ClimateType = DFLocation.ClimateBaseType.Temperate;
